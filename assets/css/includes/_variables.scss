@@ -1,0 +1,35 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+@font-face{
+    font-family: PoetsenOne-Regular;
+    src: url('assets/fonts/PoetsenOne-Regular.ttf');
+}
+
+
+/* fonts */
+$poesten: PoetsenOne-Regular;
+$roboto: Roboto;
+
+/* COLOR SCHEME */
+$purple-1: #5638A8;
+$magenta: #9A34B5;
+$blue-1: #3555B5;
+$blue-2: #353FBC;
+$orange: #E8570C;
+$yellow: #FAC61C;
+
+/* DARKEN COLORS */
+$purple-1-darken: darken($purple-1, 10);
+$magenta-darken: darken($magenta, 10);
+$blue-1-darken: darken($blue-1, 10);
+$blue-2-darken: darken($blue-2, 10);
+$orange-darken: darken($orange, 10);
+$yellow-darken: darken($yellow, 10);
+
+/* BLACKS / WHITES / GRAYS */
+$text: #333333;
+$black-1: #000;
+$black-2: #363636;
+$white: #fff;
+$gray-1: #FAFAFA;
+$gray-2: #EEE;

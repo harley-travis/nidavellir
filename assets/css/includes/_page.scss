@@ -1,0 +1,253 @@
+.banner-wrapper {
+   height: 55vh;
+   position: relative;
+}
+
+.banner {
+   text-align: center;
+   position: absolute;
+   top: 25%;
+   left: 0;
+   right: 0;
+	
+	h1 {
+		font-weight: bold;
+		font-size: 3.7rem;
+	}
+}
+
+/* GENERALS */
+img {
+	width: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.cta-heading {
+	padding-bottom: 20px;
+	font-size: 4rem;
+}
+
+#particles-js {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.logo-wrapper {
+	align-self: flex-end;
+	margin-bottom: 13px;
+}
+
+a.logo-link {
+	color: $black-1;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	:hover {
+		text-decoration: none;
+		color: $black-2;
+	}
+	
+}
+
+.nav-phone-wrapper {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.phone-nav-icon { 
+	font-size: 1rem;
+    padding-right: 7px;
+}
+
+.nav-link {
+	color: $text;
+}
+
+.banner-btn-wrapper {
+    margin-top: 35px;
+}
+
+.card-deck {
+    margin: 0 auto;
+}
+
+.bg-cover-img {
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	box-shadow: 1px -1px 15px #000 inset;
+	background-position: 50% 0;
+}
+
+.bg-padding {
+	padding: 150px 0;
+}
+
+.product {
+    border-radius: 5px;
+    box-shadow: 1px 2px 12px -2px $black-1;
+	padding: 30px;
+	height: 100%;
+	width: 100%;
+	max-width: 515px;
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
+
+.service-wrapper {
+    margin: 35px 0px;
+}
+
+.service-icon {
+    width: 100%;
+    max-width: 70px;
+}
+
+.service-title {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 10px 0 12px 0;
+}
+
+.page-title-wrapper {
+    margin: 0 auto;
+}
+
+.tip-wrapper {
+    background: $gray-1;
+    margin: 10px 0;
+    border: 1px solid $gray-2;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* BLOG */
+.blog-content {
+	padding-top: 35px;
+}
+
+/* YELP REVIEWS */
+.reviewer-img {
+    border-radius: 50%;
+    border: 4px solid $purple-1;
+}
+
+.reviewer-rating-img {
+    padding-top: 12px;
+}
+
+.carousel-item {
+    height: 275px;
+    margin: 0 auto;
+    
+	padding-top: 60px;
+}
+
+.carousel-width {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.reviewer-wrapper, 
+.review-description {
+    margin: 0 auto;
+}
+
+.review-description {
+    padding-top: 12px;
+}
+
+.review-author {
+	color: $purple-1;
+}
+
+.pad {
+	padding: 15px;
+}
+
+/* 404 */
+.ops {
+	font-size: 10rem;
+	text-align: center;
+}
+.ops-sub {
+	text-align: center;
+}
+
+/* FOOTER */
+footer {
+
+}
+
+.footer-desc {
+	padding-top: 1px;
+}
+
+ul.footer-list {
+	list-style: none;
+}
+
+.footer-social-wrapper {
+    border-bottom: 1px solid $white;
+}
+
+.footer-social {
+    width: 100%;
+    text-align: right;
+}
+
+ul.social-list {
+	padding: 0;
+}
+
+li.social-cirlce {
+    background-color: $white;
+    padding: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 100%;
+    max-width: 50px;
+	height: 50px;
+	margin-left: 6px;
+	position: relative;
+}
+
+.social-icon {
+    color: $purple-1;
+    padding: 10px;
+    font-size: 1.5rem;
+	position: absolute;
+	top: 3px;
+}
+
+.fb-icon {
+	right: 10px;
+}
+
+.twitter-icon {
+	right: 2px;
+}
+
+.yelp-icon {
+	right: 6px;
+}
+
+.footer-bottom {
+	padding-top: 8px;
+}
+
+.footer-right {
+	text-align: right;
+}
