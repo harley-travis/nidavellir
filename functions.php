@@ -4,6 +4,8 @@
 remove_action('wp_head', 'print_emoji_detection_script', 7);
 remove_action('wp_print_styles', 'print_emoji_styles');
 
+add_theme_support( 'post-thumbnails' );
+
 // Allow code in text edtiors
 function add_mce_markup( $initArray ) {
     $ext = 'i[id|name|class|style]';

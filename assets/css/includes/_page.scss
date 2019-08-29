@@ -1,6 +1,22 @@
+aside#media_image-2 > a > img {
+    max-width: 150px !important;
+}
+
+nav {
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
 .banner-wrapper {
-   height: 55vh;
-   position: relative;
+    height: 55vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	-moz-box-shadow:    inset 0 0 1px #000000;
+   -webkit-box-shadow: inset 0 0 1px #000000;
+   box-shadow:         inset 0 0 1px #000000;
+	position: relative;
 }
 
 .banner {
@@ -14,6 +30,68 @@
 		font-weight: bold;
 		font-size: 3.7rem;
 	}
+}
+
+.banner-container {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    right: 0;
+    color: white;
+    text-transform: uppercase;
+    bottom: 0;
+    top: 35%;
+	
+	h1{
+		font-weight: bold;
+	}
+}
+
+a.btn-cta {
+    color: white;
+    border: 2px solid white;
+    width: 30%;
+    max-width: 200px;
+    font-size: 18px;
+    padding: 13px;
+    margin-top: 25px;
+}
+
+a.btn-cta:hover {
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-wrap {
+    padding-top: 55px;
+}
+
+.nav {
+	justify-content: flex-end !important;
+}
+
+.message-tag {
+    text-align: center;
+}
+
+.second-message {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 45%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.featured-posts {
+    padding: 100px 0;
+    margin: 0 auto;
+}
+
+.card {
+	border: none !important;
 }
 
 /* GENERALS */
@@ -186,6 +264,15 @@ a.logo-link {
 	text-align: center;
 }
 
+/* ARTICLE */
+.article-left {
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+}
+
 /* FOOTER */
 footer {
 
@@ -208,6 +295,17 @@ ul.footer-list {
     text-align: right;
 }
 
+.social-wrapper {
+	text-align: center;
+	
+	ul {
+		list-style: none;
+	}
+	li {
+		display: inline-block;
+	}
+}
+
 ul.social-list {
 	padding: 0;
 }
@@ -228,7 +326,6 @@ li.social-cirlce {
     color: $purple-1;
     padding: 10px;
     font-size: 1.5rem;
-	position: absolute;
 	top: 3px;
 }
 

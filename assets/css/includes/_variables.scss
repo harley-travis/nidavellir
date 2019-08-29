@@ -4,11 +4,15 @@
     font-family: PoetsenOne-Regular;
     src: url('assets/fonts/PoetsenOne-Regular.ttf');
 }
+@font-face{
+    font-family: Brandon;
+    src: url('assets/fonts/PoetsenOne-Regular.ttf');
+}
 
 
 /* fonts */
 $poesten: PoetsenOne-Regular;
-$roboto: Roboto;
+$roboto: 'Roboto', sans-serif;
 
 /* COLOR SCHEME */
 $purple-1: #5638A8;

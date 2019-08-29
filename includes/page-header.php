@@ -1,10 +1,28 @@
-<header class="container-fluid">
-	<div class="container header-wrapper">
+<header class="">
+	<div class="header-wrapper">
 		<div class="row">
-			<div class="col-md-6 col-sm-6 col-xs-12 logo-wrapper center text-center">
+			<div class="col-md-6 col-sm-6 col-xs-12 logo-wrapper">
 				<span class="logo-font"><a href="<?php echo ROOT_URL; ?>" class="logo-link"><?php dynamic_sidebar( 'logo-title' ); ?></a></span>
 			</div>
-		</div> 
+			<div class="col-md-6 col-sm-6 col-xs-12 nav-wrap">
+				<nav>
+					<ul class="nav">
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Food</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Whatever</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					  </li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 		<div class="row">
 			
 			<div class="col-6 header-second">

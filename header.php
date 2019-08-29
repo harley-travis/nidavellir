@@ -20,14 +20,14 @@
 <html <?php language_attributes(); ?>>
 <!--<![endif]-->
 	<head>
-		<title><?php the_title()?> | Web Design San Diego</title>
+		<title><?php the_title()?> | HealthyishHarley.com</title>
 		
 		<?php require_once(dirname(__FILE__)."/config.php"); ?>
 		
 		<!-- meta -->
 		<meta charset="utf-8">
 		<meta name="keywords" content="">
-		<meta name="author" content="Web Design San Diego">
+		<meta name="author" content="HealthyishHarley">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="mobile-web-app-capable" content="yes" />
@@ -50,13 +50,6 @@
 				// init bigslide 
 				jQuery('.menu-link').bigSlide();
 				
-				// hide the helpful tips
-				jQuery('#tips').hide();
-				
-				// show the helpful tips if you're on the the seo page
-				if(window.location.href == '<?php echo ROOT_URL; ?>/san-diego-seo/' || window.location.href == '<?php echo ROOT_URL; ?>/san-diego-seo') {
-				   	jQuery('#tips').show();
-			   	}
 			});
 		</script>
 		
